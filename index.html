@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Shop</title>
+</head>
+<body>
+    <h1>BenimsWebshop</h1>
+    <style>
+        h1 {
+            font-family: "Rock Salt", cursive;
+            font-size: 3rem;
+            text-align: center;
+            color: #ff6f69;
+            text-shadow: 2px 2px #000;
+        }
+    </style>
+
+    <form>
+        <div class="mb-3">
+
+    <label for="Namn" class="form-label">Skriv dina uppgifter:</label>
+    <br>
+    <input type="Text" name="Namn" id="NamnId" required placeholder="Namn...">
+    </div>
+    <input type="Email" name="Email" id="EmailId" required placeholder="Email...">
+    <br><br>
+    <input type="link" id="AdressId" required placeholder="Din adress...">
+    <br><br>
+    <label for="id">Order ID: </label>
+    <p id="getOrderID" name="id"></p>
+    <a href=""></a>
+
+
+    <label>Fraktvillkor:</label>
+    <br>
+    <select name="Frakt" id="fraktId">
+        <option value="Hemleverans">Hemleverans</option>
+        <option value="Postombud">Postombud</option>
+        <option value="Postskåp">Postskåp</option>
+    </select>
+</label>
+
+<br><br>
+<button class="btn btn-info" id="CheckId">Beställ</button>
+</form>
+    <div class="container">
+        <table class="table table-bordered" >
+            <thead class="table-dark" >
+               
+              <tr>
+                <th scope="col">Typ</th>
+                <th scope="col">Märke</th>
+                <th scope="col">Pris</th>
+                <th scope="col">Beskrivning</th>
+                <th scope="col">Betyg & Recensioner</th>
+                <th scope="col">ID</th>
+                <th scope="col">Bild</th>
+              </tr>
+            </thead>
+            <tbody id="Text">
+            </tbody>
+          </table>
+    </div>
+ 
+    <a href="product.html">Chefen</a>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

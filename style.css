@@ -1,0 +1,13 @@
+img {
+  width: 100%;
+}
+h1 {
+    text-align: center;
+}
+table {
+    background-color: #DAA520;
+  }
+  thead.table-dark th {
+    background-color: #A0522D;;
+  }
+  

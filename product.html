@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordrar</title>
+</head>
+<body>
+    <h3>BenimsWebshop</h3>
+    <style>
+        h3 {
+            font-family: "Rock Salt", cursive;
+            font-size: 3rem;
+            text-align: center;
+            color: #ff6f69;
+            text-shadow: 2px 2px #000;
+        }
+    </style>
+    <h1>Ordrar:</h1>
+    <style>
+        h1 {
+            font-family: "Pacifico", cursive;
+            font-size: 3rem;
+            color: #800080;
+        }
+    </style>
+
+    <a href="index.html">Till shoppen</a>
+
+    <form>
+    <input type="hidden" id="hidden">
+    <label for="Ditt Namn" class="form-label">Skriv in de nya uppgifterna:</label>
+    <br>
+    <input type="text" name="Ditt Namn" id="NamnId" required placeholder="Namn...">
+    <br><br>
+    <input type="email" name="Email" id="EmailId" required placeholder="Email...">
+    <br><br>
+    <input type="link" id="AdressId" required placeholder="Din adress...">
+    <br><br>
+    <input type="number" id="getOrderID" required placeholder="Order ID....">
+    <br><br>
+    <button id="Update">Uppdatera</button>
+    <br><br>
+    <a href=""></a>
+
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <label>Fraktvillkor:</label>
+    <br>
+    <select name="Frakt" id="fraktId">
+        <option value="Hemleverans">Hemleverans</option>
+        <option value="Postombud">Postombud</option>
+        <option value="Postskåp">Postskåp</option>
+    </select>
+</label>
+<br><br>
+</form>
+
+    <p id="TextId"></p>
+
+
+    
+    <script src="product.js"></script>
+</body>
+</html>
